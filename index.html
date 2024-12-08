@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malini Kopi fantasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc; /* Cream */
+            color: #4b2e2e; /* Coklat tua */
+        }
+        header {
+            background-color: #4b2e2e;
+            color: #f5f5dc;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product-image {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .order-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .order-form input,
+        .order-form textarea,
+        .order-form button {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .order-form button {
+            background-color: #4b2e2e;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .order-form button:hover {
+            background-color: #3a2323;
+        }
+        .menu-section {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu-item {
+            display: inline-block;
+            width: 250px;
+            margin: 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+        .menu-item h3 {
+            margin: 10px 0;
+        }
+        .menu-item p {
+            margin: 10px;
+        }
+        footer {
+            background-color: #4b2e2e;
+            color: #f5f5dc;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-links a {
+            color: #f5f5dc;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Malini Kopi Fantasi</h1>
+        <p>Kenikmatan kopi terbaik untuk Anda</p>
+    </header>
+    <div class="container">
+        <h2>Menu Kami</h2>
+        <div class="menu-section">
+            <!-- Menu Item 1 -->
+            <div class="menu-item">
+                <img src="espresso.jpg" alt="espresso">
+                <h3>Espresso</h3>
+                <p>Kopi hitam pekat dengan rasa yang kuat.</p>
+            </div>
+            <!-- Menu Item 2 -->
+            <div class="menu-item">
+                <img src="latte.jpg" alt="latte">
+                <h3>Latte</h3>
+                <p>Kombinasi sempurna antara espresso dan susu.</p>
+            </div>
+            <!-- Menu Item 3 -->
+            <div class="menu-item">
+                <img src="cappuccino.jpg" alt="cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Kopi dengan busa susu yang lembut.</p>
+            </div>
+            <!-- Menu Item 4 -->
+            <div class="menu-item">
+                <img src="arabica.jpeg" alt="arabica">
+                <h3>Kopi Arabica</h3>
+                <p>Rasa khas kopi Arabica dengan aroma wangi.</p>
+            </div>
+        </div>
+
+        <h2>Pesan Sekarang!</h2>
+        <div class="order-form">
+            <form action="https://wa.me/6282211228749?text=Pesan%20Kopi%20Fantasi" method="get" target="_blank">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                
+                <label for="order">Pesanan Anda:</label>
+                <textarea id="order" name="order" placeholder="Contoh: 2 pack Kopi Arabica" required></textarea>
+                
+                <button type="submit">Pesan via WhatsApp</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Kopi Fantasi</p>
+        <div class="contact-links">
+            <a href="https://wa.me/6282211228749" target="_blank">WhatsApp</a>
+            <a href="https://instagram.com/malinifrans" target="_blank">Instagram</a>
+            <a href="mailto:malinifranz@gmail.com" target="_blank">Email</a>
+        </div>
+    </footer>
+</body>
+</html>
